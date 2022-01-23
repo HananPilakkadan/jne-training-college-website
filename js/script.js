@@ -61,3 +61,32 @@ $(".mobile-container .mobile-menu li").click(function () {
   $(".mobile-container .mobile-menu li.active").removeClass("active");
   $(this).addClass("active");
 });
+
+$(".center").slick({
+  centerMode: true,
+  lazyLoad: "ondemand",
+  autoplay: true,
+  autoplaySpeed: 20000,
+  centerPadding: "60px",
+  slidesToShow: 3,
+  responsive: [
+    {
+      breakpoint: 768,
+      settings: {
+        arrows: false,
+        centerMode: true,
+        centerPadding: "40px",
+        slidesToShow: 3,
+      },
+    },
+    {
+      breakpoint: 480,
+      settings: {
+        arrows: false,
+        centerMode: true,
+        centerPadding: "40px",
+        slidesToShow: 1,
+      },
+    },
+  ],
+});
