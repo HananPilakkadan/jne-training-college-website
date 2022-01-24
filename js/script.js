@@ -66,7 +66,7 @@ $(".center").slick({
   centerMode: true,
   lazyLoad: "ondemand",
   autoplay: true,
-  autoplaySpeed: 20000,
+  autoplaySpeed: 2000,
   centerPadding: "60px",
   slidesToShow: 3,
   responsive: [
