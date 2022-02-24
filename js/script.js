@@ -71,16 +71,16 @@ $(".center").slick({
   slidesToShow: 3,
   responsive: [
     {
-      breakpoint: 768,
+      breakpoint: 769,
       settings: {
         arrows: false,
         centerMode: true,
         centerPadding: "40px",
-        slidesToShow: 3,
+        slidesToShow: 2,
       },
     },
     {
-      breakpoint: 480,
+      breakpoint: 481,
       settings: {
         arrows: false,
         centerMode: true,
@@ -89,4 +89,25 @@ $(".center").slick({
       },
     },
   ],
+});
+
+// course.html
+function tabs(evt, cityName) {
+  var i, tabcontent, tablinks;
+  tabcontent = document.getElementsByClassName("description");
+  for (i = 0; i < tabcontent.length; i++) {
+    tabcontent[i].style.display = "none";
+  }
+  tablinks = document.getElementsByClassName("tab");
+  for (i = 0; i < tablinks.length; i++) {
+    tablinks[i].className = tablinks[i].className.replace(" active", "");
+  }
+  document.getElementById(cityName).style.display = "block";
+  evt.currentTarget.className += " active";
+}
+
+$(".subject ul li").click(function () {
+  $(".subject ul li").addClass("active");
+  $(".subject ul li.active").removeClass("active");
+  $(this).addClass("active");
 });
