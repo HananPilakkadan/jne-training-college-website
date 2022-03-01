@@ -416,7 +416,6 @@ main .wrapper .main-text h4 {
   text-align: justify;
   line-height: 1.5em;
   font-size: 18px;
-  text-transform: capitalize;
   color: var(--content-gray);
 }
 
@@ -510,14 +509,14 @@ main .wrapper .main-text h4 {
 #members .principal h2 {
   width: 200px;
   background: #fff;
-  border-radius: 50%;
+  border-radius: 20px;
   border: 2px solid #fff;
 }
 
 #members .principal h2 img {
   width: 100%;
   display: block;
-  border-radius: 50%;
+  border-radius: 20px;
 }
 
 #members .principal h3 {
@@ -1117,16 +1116,33 @@ footer .copyright p span a {
   font-size: 36px;
   font-weight: 600;
   margin-bottom: 30px;
-  color: #41447d;
+  color: var(--dark-gray);
 }
 
 #gallery .content h2 {
   font-size: 24px;
   font-weight: 600;
   margin-bottom: 30px;
-  color: #41447d;
+  color: var(--dark-gray);
 }
-
+#gallery ul.box {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  background-color: #f7f8ff;
+  padding: 50px 0;
+  border-radius: 8px;
+}
+#gallery ul.box li {
+  width: 20%;
+  margin-right: 24px;
+  margin-bottom: 24px;
+}
+#gallery ul.box li img{
+  width: 100%;
+  display: block;
+  border-radius: 8px;
+}
 #gallery .content ul {
   display: flex;
   justify-content: center;
@@ -2068,7 +2084,6 @@ a:hover {
   #accounts .wrapper .head {
     font-size: 21px;
   }
-  
 }
 
 @media all and (max-width: 860px) {
@@ -2200,6 +2215,9 @@ a:hover {
   }
   .staff-box li {
     width: 40%;
+  }
+  #gallery ul.box li {
+    width: 30%;
   }
 }
 
@@ -2464,6 +2482,12 @@ a:hover {
   .staff-box li {
     width: 100%;
   }
+  #gallery ul.box li {
+    width: 38%;
+  }
+  #gallery ul.box li:nth-child(2n){
+    margin-right: 0;
+  }
 }
 
 @media all and (max-width: 424px) {
@@ -2496,6 +2520,9 @@ a:hover {
     width: 410px;
     height: 320px;
     margin-left: 5px;
+  }
+  #gallery ul.box li {
+    width: 40%;
   }
 }
 
@@ -2634,6 +2661,10 @@ a:hover {
   }
   .details_bed #e .pdf_bed img {
     width: 45%;
+  }
+  #gallery ul.box li{
+    width: 65%;
+    margin-right: 0;
   }
 }
 
