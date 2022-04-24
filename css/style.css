@@ -30,6 +30,7 @@ html {
   font-weight: normal;
   font-style: normal;
 }
+
 @font-face {
   font-family: "poppinsregular";
   src: url("../fonts/poppins-regular-webfont.woff2") format("woff2"),
@@ -331,6 +332,7 @@ header .wrapper .hamburger span:nth-child(3) {
   0% {
     transform: translateY(-60px);
   }
+
   100% {
     transform: translateY(0);
   }
@@ -713,6 +715,7 @@ main .wrapper .main-text h4 {
 }
 
 @keyframes wobble-hor-top {
+
   0%,
   100% {
     -webkit-transform: translateX(0%);
@@ -720,22 +723,27 @@ main .wrapper .main-text h4 {
     -webkit-transform-origin: 0 0;
     transform-origin: 0 0;
   }
+
   15% {
     -webkit-transform: translateX(-4px) rotate(1deg);
     transform: translateX(-4px) rotate(1deg);
   }
+
   30% {
     -webkit-transform: translateX(8px) rotate(-1deg);
     transform: translateX(8px) rotate(-1deg);
   }
+
   45% {
     -webkit-transform: translateX(-4px) rotate(2deg);
     transform: translateX(-4px) rotate(2deg);
   }
+
   60% {
     -webkit-transform: translateX(3px) rotate(-2deg);
     transform: translateX(3px) rotate(-2deg);
   }
+
   75% {
     -webkit-transform: translateX(-2px) rotate(1deg);
     transform: translateX(-2px) rotate(1deg);
@@ -831,9 +839,11 @@ main .wrapper .main-text h4 {
   0% {
     transform: rotate(0);
   }
+
   50% {
     transform: rotate(-180deg);
   }
+
   100% {
     transform: rotate(360deg);
   }
@@ -969,6 +979,9 @@ main .wrapper .main-text h4 {
 
 #links ul li:hover {
   transform: translateY(-2px) scale(1.01);
+  -webkit-box-shadow: 14px 18px 15px -4px rgba(171, 171, 171, 0.83);
+  -moz-box-shadow: 14px 18px 15px -4px rgba(171, 171, 171, 0.83);
+  box-shadow: 14px 18px 15px -4px rgba(171, 171, 171, 0.83);
 }
 
 #links ul li:last-child {
@@ -1125,6 +1138,7 @@ footer .copyright p span a {
   margin-bottom: 30px;
   color: var(--dark-gray);
 }
+
 #gallery ul.box {
   display: flex;
   flex-wrap: wrap;
@@ -1133,16 +1147,19 @@ footer .copyright p span a {
   padding: 50px 0;
   border-radius: 8px;
 }
+
 #gallery ul.box li {
   width: 20%;
   margin-right: 24px;
   margin-bottom: 24px;
 }
-#gallery ul.box li img{
+
+#gallery ul.box li img {
   width: 100%;
   display: block;
   border-radius: 8px;
 }
+
 #gallery .content ul {
   display: flex;
   justify-content: center;
@@ -1367,17 +1384,20 @@ footer .copyright p span a {
 .heading_course {
   margin-top: 70px;
 }
+
 .heading_course h1 {
   text-align: center;
   font-size: 40px;
   margin-bottom: 32px;
   color: var(--dark-gray);
 }
+
 .heading_course h4 {
   text-align: center;
   font-size: 28px;
   color: var(--sub-head);
 }
+
 .course_details .bed_deled {
   display: flex;
   justify-content: center;
@@ -1385,6 +1405,7 @@ footer .copyright p span a {
   padding-top: 80px;
   padding-bottom: 80px;
 }
+
 .course_details .bed_deled .bEd {
   width: 25%;
   height: 200px;
@@ -1400,6 +1421,7 @@ footer .copyright p span a {
   box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
   transition: all 0.3s ease-in-out;
 }
+
 .course_details .bed_deled .dElEd {
   width: 25%;
   height: 200px;
@@ -1414,19 +1436,23 @@ footer .copyright p span a {
   border-radius: 20px;
   transition: all 0.3s ease-in-out;
 }
+
 .course_details .bed_deled .bEd h3 {
   font-size: 30px;
   color: var(--dark-gray);
   font-family: "poppinsbold";
 }
+
 .course_details .bed_deled .dElEd h3 {
   font-size: 30px;
   color: var(--dark-gray);
   font-family: "poppinsbold";
 }
+
 a:hover {
   transform: scale(1.03);
 }
+
 .footer {
   background-color: rgb(223, 223, 223);
   height: 370px;
@@ -1437,6 +1463,7 @@ a:hover {
 .heading_bed {
   padding-top: 40px;
 }
+
 .heading_bed h1 {
   font-family: "poppinsbold";
   text-align: center;
@@ -1444,18 +1471,21 @@ a:hover {
   margin-bottom: 32px;
   color: var(--dark-gray);
 }
+
 .details_bed {
   display: flex;
   justify-content: space-around;
   padding-top: 5%;
   padding-bottom: 80px;
 }
+
 .details_bed .subject {
   background-color: var(--light-gray);
   border-radius: 15px;
   width: 25%;
   height: 430px;
 }
+
 .details_bed .description {
   width: 48%;
   background-color: var(--light-gray);
@@ -1463,6 +1493,7 @@ a:hover {
   padding: 3%;
   border-radius: 18px;
 }
+
 .result {
   display: block;
   padding-bottom: 80px;
@@ -1474,33 +1505,42 @@ a:hover {
   transition: 0.3s ease;
   margin: 0 auto 60px;
 }
+
 .result:hover {
   background: #3d3d3d;
   width: 41%;
 }
+
 .result:hover span {
   transition: 0.3s ease;
   color: #fff;
 }
+
 .result span {
   font-size: 20px;
   color: #000000;
 }
+
 .details_bed #a {
   display: none;
 }
+
 .details_bed #b .pdf_bed {
   margin-top: 50px;
 }
+
 .details_bed #c .pdf_bed {
   margin-top: 50px;
 }
+
 .details_bed #a .pdf_bed {
   margin-top: 50px;
 }
+
 .details_bed #d .pdf_bed {
   margin-top: 50px;
 }
+
 .details_bed #e .pdf_bed {
   margin-top: 50px;
 }
@@ -1508,15 +1548,19 @@ a:hover {
 .details_bed #a .pdf_bed img {
   width: 25%;
 }
+
 .details_bed #b .pdf_bed img {
   width: 25%;
 }
+
 .details_bed #c .pdf_bed img {
   width: 25%;
 }
+
 .details_bed #d .pdf_bed img {
   width: 25%;
 }
+
 .details_bed #e .pdf_bed img {
   width: 25%;
 }
@@ -1533,36 +1577,44 @@ a:hover {
 .details_bed #b {
   display: none;
 }
+
 .details_bed #c {
   display: none;
 }
+
 .details_bed #d {
   display: none;
 }
+
 .details_bed #e {
   display: none;
 }
+
 .details_bed .description p {
   font-size: 19px;
   color: var(--content-gray);
   text-align: center;
   line-height: 1.3em;
 }
+
 .details_bed .description h5 {
   font-size: 20px;
   margin: 25px;
 }
+
 .details_bed .description h3 {
   text-align: center;
   font-size: 29px;
   margin-bottom: 30px;
   margin-left: -10px;
 }
+
 .details_bed .description .pdf_bed img {
   width: 25%;
   display: block;
   margin-bottom: 26px;
 }
+
 .details_bed .description .pdf_bed {
   display: flex;
   justify-content: center;
@@ -1570,11 +1622,13 @@ a:hover {
   height: 160px;
   margin-top: 50px;
 }
+
 .details_bed .description .link_bed {
   display: flex;
   justify-content: center;
   align-items: center;
 }
+
 .details_bed .description .link_bed .button {
   font-family: "poppinsregular";
   margin-bottom: 5px;
@@ -1590,6 +1644,7 @@ a:hover {
 .details_bed .subject ul {
   text-align: center;
 }
+
 .details_bed .subject h2 {
   font-family: "poppinssemibold";
   text-align: center;
@@ -1599,19 +1654,23 @@ a:hover {
   margin-bottom: 30px;
   color: rgb(12, 12, 12);
 }
+
 .details_bed .subject ul li button {
   font-family: "poppinsmedium";
   align-items: center;
   font-size: 23px;
   color: var(--dark-gray);
 }
+
 .details_bed .subject ul li.active {
   background-color: rgb(100, 100, 102);
   border-radius: 10px;
 }
+
 .details_bed .subject ul li.active button {
   color: #fff;
 }
+
 .details_bed .subject ul li {
   display: flex;
   width: 70%;
@@ -1621,6 +1680,7 @@ a:hover {
   margin-bottom: 22px;
   padding: 5px;
 }
+
 .details_bed .description .fees {
   color: var(--dark-gray);
 }
@@ -1630,6 +1690,7 @@ a:hover {
 .heading_deled {
   padding-top: 80px;
 }
+
 .heading_deled h1 {
   font-family: "poppinsbold";
   text-align: center;
@@ -1638,10 +1699,12 @@ a:hover {
   color: var(--dark-gray);
   margin-bottom: 80px;
 }
+
 .wrapper .details_deled h3 {
   font-size: 30px;
   margin-left: 180px;
 }
+
 .wrapper .details_deled p {
   font-family: "poppinsregular";
   font-size: 17px;
@@ -1654,15 +1717,18 @@ a:hover {
   border-radius: 15px;
   color: rgb(77, 77, 77);
 }
+
 .wrapper .details_deled .details h5 {
   font-size: 20px;
   margin-top: 40px;
   margin-left: 80px;
   font-family: "poppinssemibold";
 }
+
 .wrapper .details_deled {
   margin-bottom: 90px;
 }
+
 .wrapper .details_deled ul {
   display: flex;
   flex-wrap: wrap;
@@ -1670,16 +1736,19 @@ a:hover {
   align-items: center;
   margin-top: 25px;
 }
+
 .wrapper .details_deled ul li {
   margin: 30px;
   margin-bottom: 25px;
 }
+
 .wrapper .details_deled ul li img {
   display: block;
   width: 170px;
   height: 160px;
   border-radius: 13px;
 }
+
 .wrapper .details_deled ul li nav a {
   background-color: var(--dark-gray);
   padding: 9px;
@@ -1691,27 +1760,32 @@ a:hover {
   transition: 0.3 ease;
   font-size: 18px;
 }
+
 .wrapper .details_deled ul li nav {
   display: flex;
   justify-content: center;
   align-items: center;
   margin-top: 25px;
 }
+
 .wrapper .details_deled h5 span {
   color: var(--dark-gray);
   font-size: 20px;
   font-family: "poppinssemibold";
 }
+
 .wrapper .details_deled h5 {
   margin-left: 80px;
   font-size: 20px;
   margin-top: 28px;
   font-family: "poppinsregular";
 }
+
 /* account.html */
 #accounts {
   padding: 50px 0;
 }
+
 #accounts .wrapper h2 {
   text-align: center;
   margin-top: 60px;
@@ -1727,6 +1801,7 @@ a:hover {
   font-size: 26px;
   color: #7c7a7a;
 }
+
 #accounts .wrapper ul li {
   margin-bottom: 90px;
   text-align: center;
@@ -1736,15 +1811,19 @@ a:hover {
   width: 75%;
   margin: 0 auto;
 }
+
 #accounts .wrapper ul li:first-child {
   margin-top: 50px;
 }
+
 #accounts .wrapper ul li:hover img {
   transform: scale(1.02);
 }
+
 #accounts .wrapper ul li a {
   display: inline-block;
 }
+
 #accounts .wrapper ul li a img {
   display: block;
   width: 100%;
@@ -1760,37 +1839,47 @@ a:hover {
   .heading h1 {
     font-size: 38px;
   }
+
   .heading h4 {
     font-size: 25px;
   }
+
   .heading_course h1 {
     font-size: 38px;
   }
+
   .heading_course h4 {
     font-size: 25px;
   }
+
   .course_details .bed_deled .bEd {
     width: 20%;
     height: 200px;
   }
+
   .course_details .bed_deled .bEd h3 {
     font-size: 29px;
   }
+
   .course_details .bed_deled .dElEd h3 {
     font-size: 29px;
   }
+
   .course_details .bed_deled .dElEd {
     width: 20%;
     height: 200px;
   }
+
   .details_bed .subject ul li {
     margin-bottom: 21px;
     width: 70%;
   }
+
   .details_bed .subject {
     width: 30%;
     height: 420px;
   }
+
   .details_bed .description {
     width: 55%;
   }
@@ -1804,16 +1893,20 @@ a:hover {
   #about ul.content-box li {
     height: 700px;
   }
+
   #members .principal {
     height: 380px;
   }
+
   .details_bed .subject {
     width: 33%;
     height: 390px;
   }
+
   .details_bed .description p {
     font-size: 20;
   }
+
   .details_bed .description {
     width: 60%;
   }
@@ -1823,72 +1916,94 @@ a:hover {
   #home {
     background-size: cover;
   }
+
   .mobile-container {
     width: 45%;
   }
+
   header .wrapper .nav-bar {
     display: none;
   }
+
   main .wrapper .main-text {
     margin: 200px auto;
   }
+
   main .wrapper .main-text {
     margin: 250px auto;
   }
+
   #about ul.content-box li {
     width: 48%;
     height: 480px;
   }
+
   #about ul.content-box li:nth-child(2) {
     margin-right: 0;
   }
+
   #about ul.content-box li:nth-child(3) {
     margin-top: 30px;
   }
+
   #members .principal {
     width: 100%;
     padding: 110px 60px 50px 60px;
   }
+
   footer .wrapper {
     flex-direction: column;
   }
+
   footer .wrapper .logo img {
     margin-bottom: 50px;
   }
+
   .heading h1 {
     font-size: 34px;
   }
+
   .heading h4 {
     font-size: 23px;
   }
+
   .staff .bEd {
     margin-right: 13%;
   }
+
   #gallery h1 {
     font-size: 34px;
     margin-bottom: 24px;
   }
+
   #gallery .content h1 {
     font-size: 30px;
   }
+
   #gallery .content ul li {
     width: 30%;
   }
+
   #gallery .content ul li:nth-child(3n) {
     margin-right: 0;
   }
+
   #gallery .content ul li:nth-child(n + 4) {
     margin-top: 24px;
   }
+
   #gallery .content ul li:nth-child(4) {
     margin-right: 24px;
   }
+
   #gallery .content ul li:nth-child(6) {
     margin-right: 0;
   }
+
   .heading_course h1 {
     font-size: 34px;
   }
+
   .heading_course h4 {
     font-size: 23px;
   }
@@ -1897,28 +2012,35 @@ a:hover {
     width: 28%;
     height: 200px;
   }
+
   .course_details .bed_deled .dElEd {
     width: 28%;
     height: 200px;
   }
+
   .heading_bed h1 {
     font-size: 30px;
   }
+
   .details_bed .subject ul li button {
     font-size: 19px;
   }
+
   .details_bed .subject {
     width: 36%;
     height: 390px;
     margin-right: 22px;
   }
+
   .details_bed .description p {
     font-size: 20px;
   }
+
   .details_bed .description {
     width: 65%;
     padding-bottom: 40px;
   }
+
   .heading_deled h1 {
     font-size: 30px;
   }
@@ -1934,133 +2056,171 @@ a:hover {
     color: #fff;
     font-size: 40px;
   }
+
   main .wrapper .main-text h4 {
     color: #fff;
     font-size: 18px;
   }
+
   #about ul.content-box li {
     width: 90%;
     margin-right: 0;
     height: 410px;
   }
+
   #about ul.content-box li:nth-child(2) {
     margin-top: 30px;
   }
+
   #members .principal {
     padding-top: 85px;
     height: 370px;
   }
+
   #members .principal h2 {
     width: 180px;
   }
+
   #members .management li {
     width: 35%;
   }
+
   #members .management li:nth-child(2) {
     margin-right: 0;
   }
+
   #members .management li:nth-child(n + 3) {
     margin-top: 30px;
   }
+
   #update .content-box {
     width: 80%;
   }
+
   #links ul li {
     width: 42%;
   }
+
   #facilities .container ul {
     flex-wrap: wrap;
   }
+
   #facilities .container li {
     width: 44%;
   }
+
   #facilities .container li:nth-child(2) {
     margin-right: 0;
   }
+
   #facilities .container li:nth-child(n + 3) {
     margin-top: 30px;
   }
+
   footer .wrapper .content-box {
     flex-direction: column;
     text-align: center;
   }
+
   footer .wrapper .content-box .items {
     margin-right: 0;
     margin-bottom: 40px;
   }
+
   footer .wrapper .content-box .social ul {
     justify-content: center;
   }
+
   footer .wrapper .content-box .social ul li:last-child {
     margin-right: 0;
   }
+
   .heading h1 {
     font-size: 25px;
   }
+
   .heading h4 {
     font-size: 19px;
   }
+
   .staff .bEd {
     margin-right: 10%;
     width: 300px;
     height: 250px;
   }
+
   .staff .bEd h3 {
     font-size: 30px;
   }
+
   .staff .dElEd h3 {
     font-size: 30px;
   }
+
   .staff .dElEd {
     width: 300px;
     height: 250px;
   }
+
   .heading_course h1 {
     font-size: 25px;
   }
+
   .heading_course h4 {
     font-size: 19px;
   }
+
   .course_details .bed_deled .bEd {
     width: 30%;
     height: 180px;
   }
+
   .course_details .bed_deled .bEd h3 {
     font-size: 20;
   }
+
   .course_details .bed_deled .dElEd h3 {
     font-size: 20;
   }
+
   .course_details .bed_deled .dElEd {
     width: 30%;
     height: 180px;
   }
+
   .heading_bed h1 {
     font-size: 28px;
   }
+
   .details_bed .subject ul li button {
     font-size: 19px;
   }
+
   .details_bed .subject ul li {
     padding: 9px;
   }
+
   .details_bed .subject {
     width: 47%;
     height: 400px;
     border-radius: 19px;
     margin-bottom: 50px;
   }
+
   .details_bed .description p {
     font-size: 19px;
   }
+
   .details_bed .description {
     padding-bottom: 50px;
     width: 98%;
     margin-top: 20px;
   }
+
   .details_bed {
     flex-wrap: wrap;
   }
+
   .details_bed .subject ul li {
     width: 70%;
   }
@@ -2068,19 +2228,24 @@ a:hover {
   .heading_deled h1 {
     font-size: 27px;
   }
+
   .wrapper .details_deled p {
     margin-left: 2%;
     margin-right: 2%;
   }
+
   .wrapper .details_deled h5 {
     margin-left: 50px;
   }
+
   .wrapper .details_deled ul li {
     margin-left: -10px;
   }
+
   .wrapper .details_deled ul {
     margin-left: 39px;
   }
+
   #accounts .wrapper .head {
     font-size: 21px;
   }
@@ -2091,111 +2256,143 @@ a:hover {
     width: 36%;
   }
 }
+
 @media all and (max-width: 640px) {
   .mobile-container {
     width: 55%;
   }
+
   #members .principal .profile {
     right: 62px;
   }
+
   #members .principal h2 {
     width: 160px;
   }
+
   #links .main-image {
     width: 490px;
   }
+
   #about ul.content-box li {
     width: 95%;
   }
+
   #members .principal {
     height: 410px;
   }
+
   .heading h1 {
     font-size: 25px;
   }
+
   .heading h4 {
     font-size: 19px;
     margin-left: 30px;
   }
+
   .staff .bEd {
     margin-right: 10%;
     width: 290px;
     height: 220px;
   }
+
   .staff .bEd h3 {
     font-size: 30px;
   }
+
   .staff .dElEd h3 {
     font-size: 30px;
   }
+
   .staff .dElEd {
     width: 290px;
     height: 220px;
   }
+
   #gallery .content ul li {
     width: 40%;
   }
+
   #gallery .content ul li:nth-child(2n) {
     margin-right: 0;
   }
+
   #gallery .content ul li:nth-child(n + 3) {
     margin-top: 24px;
   }
+
   #gallery .content ul li:nth-child(3n) {
     margin-right: 24px;
   }
+
   #gallery .content ul li:nth-child(6) {
     margin-right: 0;
   }
+
   .heading_course h1 {
     font-size: 25px;
   }
+
   .heading_course h4 {
     font-size: 19px;
     margin-left: 30px;
   }
+
   .course_details .bed_deled .bEd {
     width: 36%;
     height: 180px;
   }
+
   .course_details .bed_deled .bEd h3 {
     font-size: 25px;
   }
+
   .course_details .bed_deled .dElEd h3 {
     font-size: 25px;
   }
+
   .course_details .bed_deled .dElEd {
     width: 36%;
     height: 180px;
   }
+
   .heading_bed h1 {
     font-size: 23px;
   }
+
   .details_bed .subject ul li button {
     font-size: 19px;
   }
+
   .details_bed .subject ul li {
     width: 69%;
   }
+
   .details_bed .subject {
     width: 70%;
     height: 420px;
     border-radius: 19px;
   }
+
   .details_bed .description p {
     font-size: 16px;
   }
+
   .details_bed .description {
     padding: 20px;
     width: 100%;
     padding-bottom: 35px;
   }
+
   .details_bed .description h3 {
     font-size: 20px;
   }
+
   .details_bed .description .fees {
     font-size: 17px;
   }
+
   .details_bed .description h5 {
     font-size: 16px;
   }
@@ -2203,19 +2400,24 @@ a:hover {
   .heading_deled h1 {
     font-size: 25px;
   }
+
   .wrapper .details_deled p {
     margin-left: 0%;
     margin-right: 0%;
   }
+
   #accounts .wrapper .head {
     font-size: 17px;
   }
+
   #accounts .wrapper h2 {
     font-size: 18px;
   }
+
   .staff-box li {
     width: 40%;
   }
+
   #gallery ul.box li {
     width: 30%;
   }
@@ -2225,38 +2427,48 @@ a:hover {
   #members .principal .profile {
     right: 155px;
   }
+
   #members .principal {
     height: 500px;
     padding-top: 135px;
   }
+
   #links .main-image {
     width: 440px;
   }
+
   #about ul.content-box li {
     width: 100%;
   }
+
   .heading h1 {
     font-size: 25px;
   }
+
   .heading h4 {
     font-size: 19px;
     margin-left: 25px;
   }
+
   .staff .bEd {
     margin-right: 10%;
     width: 290px;
     height: 180px;
   }
+
   .staff .bEd h3 {
     font-size: 30px;
   }
+
   .staff .dElEd h3 {
     font-size: 30px;
   }
+
   .staff .dElEd {
     width: 290px;
     height: 180px;
   }
+
   .staff-box li {
     width: 65%;
     margin-bottom: 24px;
@@ -2268,93 +2480,121 @@ a:hover {
     width: 100%;
     text-align: center;
   }
+
   #about ul.content-box li {
     height: 445px;
     padding: 40px 25px;
   }
+
   #about .history-box h5 {
     font-size: 22px;
   }
+
   #about .history-box p {
     font-size: 16px;
   }
+
   #about ul.content-box li p {
     font-size: 16px;
   }
+
   #about .history-box {
     padding: 40px 25px;
   }
+
   #about .head h3 {
     font-size: 28px;
   }
+
   #members .principal {
     height: 530px;
     padding: 135px 20px 50px 20px;
   }
+
   #members .principal .profile {
     right: 30%;
   }
+
   #members .head h3 {
     font-size: 28px;
   }
+
   #members .principal h3 {
     font-size: 24px;
   }
+
   #members .principal p {
     font-size: 16px;
   }
+
   #members .management li {
     width: 65%;
     margin-right: 0;
   }
+
   #members .management li .text h3 {
     font-size: 16px;
   }
+
   #members .management li:nth-child(n + 2) {
     margin-top: 30px;
   }
+
   #latest .head h3 {
     font-size: 28px;
   }
+
   #links .head h3 {
     font-size: 28px;
   }
+
   #facilities .head h3 {
     font-size: 28px;
   }
+
   #facilities .head p {
     font-size: 16px;
   }
+
   #facilities .container li {
     width: 75%;
     margin-right: 0;
   }
+
   #facilities .container li:nth-child(n + 2) {
     margin-top: 30px;
   }
+
   #update .content-box {
     width: 100%;
   }
+
   #update .content-box ul li .img-box {
     width: 75px;
   }
+
   #links ul li {
     margin-right: 0;
     width: 100%;
   }
+
   #links .main-image {
     width: 300px;
   }
+
   .heading h1 {
     font-size: 23px;
   }
+
   .heading h4 {
     font-size: 17px;
     margin-left: 25px;
   }
+
   .staff {
     flex-wrap: wrap;
   }
+
   .staff .bEd {
     width: 350px;
     height: 250px;
@@ -2362,64 +2602,81 @@ a:hover {
     margin-left: 5px;
     margin-right: 3px;
   }
+
   .staff .bEd h3 {
     font-size: 35px;
     margin-top: 37%;
   }
+
   .staff .dElEd h3 {
     font-size: 35px;
     margin-top: 37%;
   }
+
   .staff .dElEd {
     width: 410px;
     height: 320px;
     margin-left: 5px;
   }
+
   #gallery h1 {
     font-size: 30px;
     margin-bottom: 20px;
   }
+
   #gallery {
     padding-top: 0;
   }
+
   #gallery .content h1 {
     font-size: 26px;
   }
+
   #gallery .content h2 {
     font-size: 20px;
   }
+
   #gallery .content ul li {
     width: 85%;
     margin-right: 0;
   }
+
   #gallery .content ul li:nth-child(n + 2) {
     margin-top: 24px;
   }
+
   #gallery .content ul li:nth-child(3n) {
     margin-right: 0;
   }
+
   .heading_course h1 {
     font-size: 23px;
   }
+
   .heading_course h4 {
     font-size: 17px;
     margin-left: 25px;
   }
+
   .course_details .bed_deled {
     flex-wrap: wrap;
   }
+
   .course_details .bed_deled .bEd {
     width: 70%;
     height: 220px;
     margin-bottom: 40px;
     margin-right: 0;
   }
+
   .course_details .bed_deled .bEd h3 {
     font-size: 32px;
   }
+
   .course_details .bed_deled .dElEd h3 {
     font-size: 32px;
   }
+
   .course_details .bed_deled .dElEd {
     width: 70%;
     height: 220px;
@@ -2428,50 +2685,64 @@ a:hover {
   .heading_bed h1 {
     font-size: 20px;
   }
+
   .details_bed .subject ul li button {
     font-size: 17px;
   }
+
   .details_bed .subject ul li {
     margin-bottom: 19px;
     width: 70%;
   }
+
   .details_bed .subject {
     width: 75%;
     height: 420px;
     border-radius: 19px;
   }
+
   .details_bed .description p {
     font-size: 16px;
   }
+
   .details_bed .description {
     padding: 20px;
     width: 100%;
     padding-bottom: 35px;
   }
+
   .details_bed .description h3 {
     font-size: 20px;
   }
+
   .fees .description .fees {
     font-size: 17px;
   }
+
   .details_bed .description h5 {
     font-size: 16px;
   }
+
   .details_bed .description .pdf_bed img {
     width: 34%;
   }
+
   .details_bed #a .pdf_bed img {
     width: 34%;
   }
+
   .details_bed #b .pdf_bed img {
     width: 34%;
   }
+
   .details_bed #c .pdf_bed img {
     width: 34%;
   }
+
   .details_bed #d .pdf_bed img {
     width: 34%;
   }
+
   .details_bed #e .pdf_bed img {
     width: 34%;
   }
@@ -2479,13 +2750,16 @@ a:hover {
   .heading_deled h1 {
     font-size: 20px;
   }
+
   .staff-box li {
     width: 100%;
   }
+
   #gallery ul.box li {
     width: 38%;
   }
-  #gallery ul.box li:nth-child(2n){
+
+  #gallery ul.box li:nth-child(2n) {
     margin-right: 0;
   }
 }
@@ -2494,13 +2768,16 @@ a:hover {
   .heading h1 {
     font-size: 23px;
   }
+
   .heading h4 {
     font-size: 16px;
     margin-left: 24px;
   }
+
   .staff {
     flex-wrap: wrap;
   }
+
   .staff .bEd {
     width: 410px;
     height: 320px;
@@ -2508,19 +2785,23 @@ a:hover {
     margin-left: 5px;
     margin-right: 3px;
   }
+
   .staff .bEd h3 {
     font-size: 35px;
     margin-top: 37%;
   }
+
   .staff .dElEd h3 {
     font-size: 35px;
     margin-top: 37%;
   }
+
   .staff .dElEd {
     width: 410px;
     height: 320px;
     margin-left: 5px;
   }
+
   #gallery ul.box li {
     width: 40%;
   }
@@ -2530,43 +2811,56 @@ a:hover {
   main .wrapper .main-text h1 {
     font-size: 36px;
   }
+
   main .wrapper .main-text h4 {
     font-size: 18px;
   }
+
   #about ul.content-box li {
     padding: 30px 20px;
   }
+
   #about .head h3 {
     font-size: 26px;
   }
+
   #members .principal .profile {
     right: 79px;
   }
+
   #about .history-box h5 {
     font-size: 24px;
   }
+
   #about .history-box p {
     font-size: 16px;
   }
+
   #members .principal h3 {
     font-size: 22px;
   }
+
   #latest .head h3 {
     font-size: 26px;
   }
+
   #links .head h3 {
     font-size: 26px;
   }
+
   .heading h1 {
     font-size: 23px;
   }
+
   .heading h4 {
     font-size: 17px;
     margin-left: 25px;
   }
+
   .staff {
     flex-wrap: wrap;
   }
+
   .staff .bEd {
     width: 410px;
     height: 290px;
@@ -2574,52 +2868,66 @@ a:hover {
     margin-left: 9px;
     margin-right: 3px;
   }
+
   .staff .bEd h3 {
     font-size: 35px;
     margin-top: 40%;
   }
+
   .staff .dElEd h3 {
     font-size: 35px;
     margin-top: 39%;
   }
+
   .staff .dElEd {
     width: 410px;
     height: 290px;
   }
+
   #gallery h1 {
     font-size: 24px;
   }
+
   #gallery .content h1 {
     font-size: 22px;
   }
+
   .heading_course h1 {
     font-size: 23px;
   }
+
   .heading_course h4 {
     font-size: 17px;
     margin-left: 25px;
   }
+
   .course_details .bed_deled .bEd {
     margin-bottom: 14%;
     width: 85%;
     height: 190px;
   }
+
   .course_details .bed_deled .bEd h3 {
     font-size: 26px;
   }
+
   .course_details .bed_deled .dElEd h3 {
     font-size: 26px;
   }
+
   .course_details .bed_deled .dElEd {
     width: 85%;
     height: 190px;
   }
+
   .heading_bed h1 {
     font-size: 19px;
   }
+
   .details_bed .subject ul li button {
     font-size: 17px;
   }
+
   .details_bed .subject {
     width: 90%;
     height: 400px;
@@ -2627,42 +2935,54 @@ a:hover {
 
     margin-left: 20px;
   }
+
   .details_bed .description p {
     font-size: 16px;
   }
+
   .details_bed .description {
     padding: 20px;
     width: 100%;
     padding-bottom: 35px;
   }
+
   .details_bed .description h3 {
     font-size: 20px;
   }
+
   .details_bed .description .fees {
     font-size: 17px;
   }
+
   .details_bed .description h5 {
     font-size: 16px;
   }
+
   .details_bed .description .pdf_bed img {
     width: 45%;
   }
+
   .details_bed #a .pdf_bed img {
     width: 45%;
   }
+
   .details_bed #b .pdf_bed img {
     width: 45%;
   }
+
   .details_bed #c .pdf_bed img {
     width: 45%;
   }
+
   .details_bed #d .pdf_bed img {
     width: 45%;
   }
+
   .details_bed #e .pdf_bed img {
     width: 45%;
   }
-  #gallery ul.box li{
+
+  #gallery ul.box li {
     width: 65%;
     margin-right: 0;
   }
@@ -2672,13 +2992,16 @@ a:hover {
   .heading h1 {
     font-size: 20px;
   }
+
   .heading h4 {
     font-size: 15px;
     margin-left: 25px;
   }
+
   .staff {
     flex-wrap: wrap;
   }
+
   .staff .bEd {
     width: 390px;
     height: 250px;
@@ -2686,50 +3009,63 @@ a:hover {
     margin-left: 5px;
     margin-right: 3px;
   }
+
   .staff .bEd h3 {
     font-size: 30px;
     margin-top: 40%;
   }
+
   .staff .dElEd h3 {
     font-size: 30px;
     margin-top: 38%;
   }
+
   .staff .dElEd {
     width: 390px;
     height: 250px;
     margin-left: 5px;
   }
+
   #gallery h1 {
     font-size: 22px;
   }
+
   .heading_course h1 {
     font-size: 20px;
   }
+
   .heading_course h4 {
     font-size: 15px;
     margin-left: 25px;
   }
+
   .course_details .bed_deled .bEd {
     width: 90%;
     height: 180px;
     margin-bottom: 14%;
   }
+
   .course_details .bed_deled .bEd h3 {
     font-size: 29px;
   }
+
   .course_details .bed_deled .dElEd h3 {
     font-size: 29px;
   }
+
   .course_details .bed_deled .dElEd {
     width: 90%;
     height: 180px;
   }
+
   .heading_bed h1 {
     font-size: 18px;
   }
+
   .details_bed .subject ul li button {
     font-size: 17px;
   }
+
   .details_bed .subject {
     width: 90%;
     height: 390px;
@@ -2739,45 +3075,58 @@ a:hover {
   .details_bed .description .pdf_bed img {
     width: 48%;
   }
+
   .details_bed #a .pdf_bed img {
     width: 48%;
   }
+
   .details_bed #b .pdf_bed img {
     width: 48%;
   }
+
   .details_bed #c .pdf_bed img {
     width: 48%;
   }
+
   .details_bed #d .pdf_bed img {
     width: 48%;
   }
+
   .details_bed #e .pdf_bed img {
     width: 48%;
   }
+
   .details_bed .description p {
     font-size: 16px;
   }
+
   .details_bed .description {
     padding: 20px;
     width: 100%;
     padding-bottom: 35px;
   }
+
   .details_bed .description h3 {
     font-size: 20px;
   }
+
   .details_bed .description .fees {
     font-size: 17px;
   }
+
   .details_bed .description h5 {
     font-size: 16px;
   }
+
   .heading_deled h1 {
     font-size: 19px;
   }
+
   .wrapper .details_deled h5 {
     font-size: 18px;
     margin-left: 11px;
   }
+
   .wrapper .details_deled h3 span {
     font-size: 18px;
   }
